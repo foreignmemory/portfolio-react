@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.navbar {
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+}
