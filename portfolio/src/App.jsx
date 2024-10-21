@@ -1,17 +1,21 @@
-import { useState } from 'react'
+
 import './App.css'
 import Navbar from './components/Navbar';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   
 
   return (
-    <>
-      <div>
-        <Navbar className="navbar"/>
-      </div>
-    </>
+      <>
+      <header>
+        <Navbar />
+      </header>
+
+      
+        <Outlet />
+      </>
   )
 }
 
-export default App
+export default App;
