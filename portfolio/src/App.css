@@ -1,9 +1,8 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
+#root {
+
+  
+ 
+}
 
 
 
@@ -25,6 +24,49 @@
   display: flex;
   align-items:center;
   justify-content: space-around;
-  background-color: red;
+  border: groove rgb(63, 2, 82);
+  background: rgb(131,244,237);
+background: linear-gradient(0deg, rgba(131,244,237,1) 0%, rgba(101,11,64,1) 90%);
 }
 
+
+body {
+/*-------------Background Pattern---------------*/
+
+background-color: #ffffff;
+opacity: 0.8;
+background-image:  linear-gradient(#5b8c65 2px, transparent 2px), linear-gradient(90deg, #5b8c65 2px, transparent 2px), linear-gradient(#5b8c65 1px, transparent 1px), linear-gradient(90deg, #5b8c65 1px, #ffffff 1px);
+background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+
+  margin:auto;
+
+}
+
+.photo {
+  max-width: 800px;
+}
+
+.box {
+  background-color: rgb(159, 230, 226);
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+  border: dashed;
+  border-width: 10px 4px;
+  border-radius: 10px 40px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.p {
+  margin: 0rem 1rem 0rem 0rem;
+  font-size: larger;
+}
+
+.footer {
+  border: groove rgb(63, 2, 82);
+  background: rgb(131,244,237);
+  background: linear-gradient(0deg,rgba(101,11,64,1)  0%, rgba(131,244,237,1) 90%);
+}
