@@ -1,8 +1,8 @@
-#root {
+/* #root {
 
   
  
-}
+} */
 
 
 
@@ -69,4 +69,26 @@ background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
   border: groove rgb(63, 2, 82);
   background: rgb(131,244,237);
   background: linear-gradient(0deg,rgba(101,11,64,1)  0%, rgba(131,244,237,1) 90%);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 0rem 0rem 0rem;
+}
+
+.cardbox {
+  display: flex;
+}
+
+.cardimg {
+  max-width: 15rem;
+  max-height: 15rem;
+  border-radius: 5%;
 }

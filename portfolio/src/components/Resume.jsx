@@ -1,6 +1,6 @@
 const Resume = () => {
   return ( 
-    <div>
+    <div className='box'>
       <h2>Resume</h2>
     </div>
    );
